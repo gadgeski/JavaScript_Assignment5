@@ -10,13 +10,21 @@ body {
   margin: 0;
   transition: background-color 0.5s ease, color 0.5s ease; /* スムーズな切り替え */
 }
+/*=======================================
 
+LightMode
+
+=======================================*/
 /* ライトモードのスタイル（デフォルト） */
 body.light-mode {
   background-color: #f8f9fa;
   color: #212529;
 }
+/*=======================================
 
+DarkMode
+
+=======================================*/
 /* ダークモードのスタイル */
 body.dark-mode {
   background-color: #343a40;
@@ -46,7 +54,11 @@ p {
   margin-bottom: 25px;
   line-height: 1.6;
 }
+/*=======================================
 
+Button
+
+=======================================*/
 button {
   padding: 10px 25px;
   font-size: 17px;
@@ -109,9 +121,11 @@ Box
   height: 100%;
   border-color: rgba(163, 175, 189, 0.3);
   transition-delay: 0s;
+  border-radius: 10px;
 }
 .box:hover {
   background: rgba(163, 175, 189, 0.1);
   backdrop-filter: blur(15px);
   transition-delay: 0.3s;
+  border-radius: 10px;
 }
