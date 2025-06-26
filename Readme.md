@@ -10,7 +10,7 @@ HTML はウェブページの構造を作る言語です。このコードでは
 <h3>meta charset="UTF-8"</h3>: 文字化けを防ぐためのおまじないです。
 <h3>meta name="viewport" content="width=device-width, initial-scale=1.0"</h3>: どんなデバイス（スマホやPCなど）で見ても、適切に表示されるように設定しています。
 <h3>title</h3>: ブラウザのタブに表示されるページのタイトルです。
-<h3>link rel="stylesheet"</h3>>: style.cssという名前のCSSファイルを読み込んで、ページの見た目を設定します。
+<h3>link rel="stylesheet"</h3>: style.cssという名前のCSSファイルを読み込んで、ページの見た目を設定します。
 <body>: ウェブページに実際に表示される内容を記述する部分です。
 <h3>div class="container"</h3>: このdiv要素は、中に含まれる要素をまとめるための「箱」のようなものです。containerというクラス名がついています。
     <h3>div class="box"</h3>モード切り替え対応</div>: 「モード切り替え対応」というテキストが入った「箱」です。boxというクラス名がついています。
